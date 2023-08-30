@@ -18,19 +18,18 @@
 </div>
 <div id="song-box">
   <br>
-  <video class="video" id="audioenvideo" controls="controls" autoplay>
+  <video class="col-12 d-flex justify-content-center" id="audioenvideo" height="250px" autoplay>
 <source src="" type="video">
 Your browser does not support the video format.
 </video>
-  
-  <div class="links">
-      <button id="new-song">Volgende</button>
-        <button id="pause">Play Audio</button>
-        <button id="play">Play Video</button>
-        <button id="audio">Terug naar Audio</button>
-  </div>
+<div class="links">
+  <button id="new-song">Volgende liedje</button>
+    <button id="pause">Pause</button>
+    <button id="changevideobutton">Volgende video</button>
+    <button id="podcast" onclick="playpodcast ()">Podcast</button>
+</div>
 
-  <button routerLink="/playvideo" class="nav-link" href="#">Play video</button>
+  <button routerLink="/songteksten" class="nav-link" href="#">Songteksten</button>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->

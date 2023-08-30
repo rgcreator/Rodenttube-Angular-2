@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PlayvideoComponent } from './playvideo/playvideo.component';
-
+import { SongtekstenComponent } from './songteksten/songteksten.component';
 const routes: Routes = [
-  { path: 'playvideo', component: PlayvideoComponent },
-];
+  { path: 'songteksten', component: SongtekstenComponent },];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

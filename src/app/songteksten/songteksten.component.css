@@ -1,0 +1,21 @@
+p{
+    background-color: saddlebrown;
+    color: rgb(110, 164, 100);
+    font-size: 25px;
+    display: block;
+}
+h1{
+    background-color: saddlebrown;
+    color: rgb(110, 164, 100);
+    display: block;
+}
+a{
+    background-color: saddlebrown;
+    color: rgb(110, 164, 100);
+    display: block;
+    border: 3px solid rgb(110, 164, 100);
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
