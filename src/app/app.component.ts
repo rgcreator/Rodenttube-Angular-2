@@ -1,24 +1,16 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  providers: [NgbCarouselConfig]  // add NgbCarouselConfig to the component providers
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css'],
 
 })
 
 export class AppComponent {
   title = 'Rodenttube';
-  
-  constructor(config: NgbCarouselConfig) {
-    // 
-    config.interval = 2000;
-    config.keyboard = true;
-    config.pauseOnHover = true;
-  }
 }
 
 
